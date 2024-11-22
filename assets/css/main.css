@@ -1,0 +1,45 @@
+.colors {
+    background-color: #cdd1c4;
+    color: #30323d;
+    background-color: #e8c547;
+    background-color: #4d5061;
+    background-color: #5c80bc;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d5061;
+    background-color: #cdd1c4;
+}
+
+.screentitle {
+    margin: 20lvh 0 5lvh 0;
+    font-size: larger;
+}
+
+.centered {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 38px;
+    padding: 10px 30px;
+    margin: 5px 0;
+    color: #e8c547;
+    background-color: #4d5061;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.btn:nth-child(2) {
+    font-size: 18px;
+    color: #30323d;
+    background-color: transparent;
+}
+

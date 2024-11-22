@@ -1,0 +1,36 @@
+.form-sign{
+    display: flex;
+    gap: 20px;
+}
+
+.form-sign button {
+    padding: 8px 15px;
+    font-size: 18px;
+    margin-top: 15px;
+    color: #e8c547;
+    background-color: #4d5061;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+}
+
+.form-sign button:hover {
+    cursor: pointer;
+}
+
+.form-sign input,
+.form-sign input:focus {
+    font-size: 22px;
+    padding: 5px;
+    min-width: 250px;
+    width: 30vw;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #30323d;
+    background-color: transparent;
+}
+
+
+.form-sign label {
+    font-size: 18px;
+}

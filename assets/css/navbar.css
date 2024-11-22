@@ -1,0 +1,40 @@
+.navbar {
+    list-style: none;
+    width: 100vw;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: #4d5061;
+    color: #cdd1c4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+a {
+    all: unset;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.active {
+    color: #5c80bc;
+    pointer-events: none;
+    cursor: default;
+    background-color: #30233d;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
