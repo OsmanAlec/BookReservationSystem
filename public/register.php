@@ -39,7 +39,7 @@
         
         <button type="submit">Register</button>
     </form>
-    <a href="login.html" class="btn">Click here to login</a>
+    <a href="login.php" class="btn">Click here to login</a>
 </div>
 
 
